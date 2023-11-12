@@ -3,12 +3,40 @@ body {
   background: #fff;
   color: #434455;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 /*navigation*/
+
+.navigation-item {
+  margin-right: auto;
+}
+
+.header-container {
+  display: inline-flex;
+  width: 90rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 
 .web-link {
   color: #4d5ae5;
@@ -20,6 +48,10 @@ ul {
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 24px 76px 24px 156px;
+
+  height: 1.5rem;
+  align-items: center;
 }
 
 .studio-link {
@@ -33,6 +65,14 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
 }
+.list-link {
+  display: inline-flex;
+}
+
+.list-link {
+  gap: 2.5rem;
+}
+
 .link {
   font-family: Roboto;
   color: #2e2f42;
@@ -42,11 +82,10 @@ ul {
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
   text-decoration: none;
+  display: flex;
+  align-items: flex-start;
 }
-.link:hover {
-  color: #404bbf;
-}
-
+.link:hover,
 .link:focus {
   color: #404bbf;
 }
@@ -67,11 +106,12 @@ ul {
   letter-spacing: 0.02rem;
   color: #434455;
 }
-
-.contacts:hover {
-  color: #404bbf;
+.contacts-item {
+  display: inline-flex;
+  gap: 2.5rem;
 }
 
+.contacts:hover,
 .contacts:focus {
   color: #404bbf;
 }
