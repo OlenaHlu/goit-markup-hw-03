@@ -1,0 +1,265 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #fff;
+  color: #434455;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*navigation*/
+
+.web-link {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03375rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.studio-link {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3125rem;
+  letter-spacing: 0.03375rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.link {
+  font-family: Roboto;
+  color: #2e2f42;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
+  text-decoration: none;
+}
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
+}
+
+/*adress menu*/
+
+.contacts-menu {
+  font-style: normal;
+}
+
+.contacts {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
+  color: #434455;
+}
+
+.contacts:hover {
+  color: #404bbf;
+}
+
+.contacts:focus {
+  color: #404bbf;
+}
+
+/*main-section-one*/
+
+.solutions {
+  background: #2e2f42;
+}
+
+.solutions-title {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.07rem;
+}
+
+.button {
+  background: #4d5ae5;
+  cursor: pointer;
+
+  /*button text*/
+
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.04rem;
+}
+
+.button:hover {
+  background-color: #404bbf;
+}
+
+.button:focus {
+  background-color: #404bbf;
+}
+
+/*main-section-two*/
+.directions {
+  background: #fff;
+}
+
+.section-two-headers {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+
+.section-two-text {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
+}
+
+/*main-section-three*/
+
+.our-team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.045rem;
+  text-transform: capitalize;
+}
+
+.card-conteiner {
+  background: #fff;
+}
+
+.stars-name {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+
+.stars-position {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
+}
+
+/*main-section-fourth*/
+
+.portfolio-conteiner {
+  background: #fff;
+}
+
+.portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.045rem;
+  text-transform: capitalize;
+}
+
+.project-card {
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: #fff;
+}
+
+.project-name {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.025rem;
+}
+
+.project-direction {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.02em;
+}
+
+/*footer*/
+
+.footer-conteiner {
+  background: #2e2f42;
+}
+
+.footer-web {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03375rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-studio {
+  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03375rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-information {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
+}
