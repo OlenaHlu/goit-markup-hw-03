@@ -2,6 +2,8 @@ body {
   font-family: Roboto, sans-serif;
   background: #fff;
   color: #434455;
+  width: 1440px;
+  height: 72px;
 }
 h1,
 h2,
@@ -15,12 +17,25 @@ p {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
 img {
   display: block;
+}
+header {
+  padding: 0 15px;
+}
+
+.section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.container {
+  width: 1158px;
 }
 
 /*navigation*/
@@ -30,7 +45,7 @@ img {
 }
 
 .header-container {
-  display: inline-flex;
+  display: flex;
   width: 90rem;
   height: 4.5rem;
   flex-shrink: 0;
@@ -94,6 +109,7 @@ img {
 
 .contacts-menu {
   font-style: normal;
+  margin-right: 9.75rem;
 }
 
 .contacts {
@@ -120,6 +136,8 @@ img {
 
 .solutions {
   background: #2e2f42;
+  height: 37.5rem;
+  padding-top: 11.75rem;
 }
 
 .solutions-title {
@@ -131,11 +149,23 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.07rem;
+  display: flex;
+  margin-left: 29.5rem;
+  max-width: 31rem;
 }
 
 .button {
   background: #4d5ae5;
   cursor: pointer;
+  padding: 1rem 2rem;
+  align-items: flex-start;
+  border-radius: 0.25rem;
+  display: flex;
+  min-width: 10.56rem;
+  height: 3.5rem;
+  border: none;
+  margin-top: 3rem;
+  margin-left: 39.75rem;
 
   /*button text*/
 
@@ -148,10 +178,7 @@ img {
   letter-spacing: 0.04rem;
 }
 
-.button:hover {
-  background-color: #404bbf;
-}
-
+.button:hover,
 .button:focus {
   background-color: #404bbf;
 }
@@ -159,6 +186,30 @@ img {
 /*main-section-two*/
 .directions {
   background: #fff;
+  height: 21.5rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container-second-section {
+  padding-left: 9.75rem;
+}
+
+.directions-items {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+  width: calc((100%-1.5rem) / 4);
 }
 
 .section-two-headers {
@@ -169,6 +220,7 @@ img {
   font-weight: 500;
   line-height: 1.5rem;
   letter-spacing: 0.025rem;
+  width: 16.5rem;
 }
 
 .section-two-text {
@@ -177,12 +229,24 @@ img {
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
+  width: 16.5rem;
+  margin-top: 0.5rem;
 }
 
 /*main-section-three*/
 
 .our-team {
   background: #f4f4fd;
+  padding-left: 9.75rem;
+  height: 45.75rem;
+  flex-shrink: 0;
+}
+.team-card {
+  display: inline-flex;
+  gap: 1.5rem;
+  flex-direction: row;
+  width: calc((100%-1.5rem) / 4);
+  margin-top: 4.5rem;
 }
 
 .team-title {
@@ -209,6 +273,7 @@ img {
   font-weight: 500;
   line-height: 1.5rem;
   letter-spacing: 0.025rem;
+  text-align: center;
 }
 
 .stars-position {
@@ -219,6 +284,8 @@ img {
   font-weight: 400;
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
 /*main-section-fourth*/
