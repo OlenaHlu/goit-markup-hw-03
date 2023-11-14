@@ -32,7 +32,7 @@ img {
 
 .container {
   width: 1158px;
-  margin: 0 141px;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -125,9 +125,6 @@ img {
 }
 
 /*main-section-one*/
-
-.section-one-container {
-}
 
 .solutions {
   background: #2e2f42;
@@ -232,61 +229,75 @@ img {
 
 .our-team {
   background: #f4f4fd;
-  padding-left: 9.75rem;
-  height: 45.75rem;
+  height: 732px;
   flex-shrink: 0;
 }
+
 .team-card {
   display: inline-flex;
-  gap: 1.5rem;
+  gap: 24px;
   flex-direction: row;
-  width: calc((100%-1.5rem) / 4);
-  margin-top: 4.5rem;
+  width: calc((100%-24px) / 4);
+  margin-top: 72px;
 }
 
 .team-title {
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
-  font-size: 2.25rem;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.045rem;
+  letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
 .card-conteiner {
   background: #fff;
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .stars-name {
   color: #2e2f42;
   font-family: Roboto;
-  font-size: 1.25rem;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5rem;
-  letter-spacing: 0.025rem;
+  line-height: 24px;
+  letter-spacing: 0.4px;
   text-align: center;
+  margin-top: 32px;
 }
 
 .stars-position {
   color: #434455;
   font-family: Roboto;
-  font-size: 1rem;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem;
-  letter-spacing: 0.02rem;
-  margin-top: 0.5rem;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-top: 8px;
   text-align: center;
+  margin-bottom: 32px;
 }
 
 /*main-section-fourth*/
 
 .portfolio-conteiner {
   background: #fff;
+  height: 1240px;
+}
+
+.project-card-item {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-title {
@@ -299,21 +310,26 @@ img {
   line-height: 1.11;
   letter-spacing: 0.045rem;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .project-card {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: #fff;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  max-width: 360px;
 }
-
+.card-information {
+  margin: 32px 16px;
+}
 .project-name {
   color: #2e2f42;
   font-family: Roboto;
-  font-size: 1.25rem;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.025rem;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .project-direction {
@@ -330,28 +346,33 @@ img {
 
 .footer-conteiner {
   background: #2e2f42;
+  height: 312px;
 }
 
+.footer-box {
+  padding-top: 101.44px;
+}
 .footer-web {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
-  font-size: 1.125rem;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03375rem;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .footer-studio {
   color: #f4f4fd;
   font-family: Raleway, sans-serif;
-  font-size: 1.125rem;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03375rem;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -359,9 +380,10 @@ img {
 .footer-information {
   color: #f4f4fd;
   font-family: Roboto;
-  font-size: 1rem;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem;
-  letter-spacing: 0.02rem;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  width: 264px;
 }
